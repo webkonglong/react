@@ -1,4 +1,6 @@
-import { ReactDOMTextComponent, ReactDOMComponent, ReactCompositeComponent } from "./reactDom"
+import ReactDOMTextComponent from "./ReactDOMTextComponent"
+import ReactDOMComponent from "./ReactDOMComponent"
+import ReactCompositeComponent from "./ReactCompositeComponent"
 
 function instantiateReactComponent (node) {
     // 文本节点

@@ -1,9 +1,10 @@
 {
-  "name": "react",
+  "name": "min-reac6",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server"
+    "dev": "webpack-dev-server",
+    "build": "rm -rf dist/* && cross-env NODE_ENV=pro webpack --mode=production"
   },
   "author": "",
   "license": "ISC",

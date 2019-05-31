@@ -1,4 +1,5 @@
-import instantiateReactComponent from '../instantiateReactComponent'
+import instantiateReactComponent from './instantiateReactComponent'
+import $shouldUpdateReactComponent from './shouldUpdateReactComponent'
 
 function delegate (eventType, reactid, callback) {
     document.addEventListener(eventType.toLocaleLowerCase(), e => {
